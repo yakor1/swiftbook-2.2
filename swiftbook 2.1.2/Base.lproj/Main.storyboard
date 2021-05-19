@@ -29,9 +29,8 @@
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="100"/>
+                                                <integer key="value" value="70"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zLM-id-nOk">
@@ -42,9 +41,8 @@
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="100"/>
+                                                <integer key="value" value="70"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lc8-tu-qTD">
@@ -56,9 +54,8 @@
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="100"/>
+                                                <integer key="value" value="70"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
@@ -81,7 +78,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="dsg-Tg-Y3h"/>
+                                    <action selector="tappedNextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HhL-5W-xQf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -99,7 +96,6 @@
                     <connections>
                         <outlet property="greenButtonView" destination="lc8-tu-qTD" id="r0z-BR-zti"/>
                         <outlet property="redButtonView" destination="fNd-Hj-FDv" id="Orq-qX-wfi"/>
-                        <outlet property="stackView" destination="5Up-7I-Sqi" id="9bO-sq-zw3"/>
                         <outlet property="startButton" destination="Znt-EK-0hG" id="Jb5-qu-uRn"/>
                         <outlet property="yellowButtonView" destination="zLM-id-nOk" id="Ndc-MO-fC9"/>
                     </connections>
